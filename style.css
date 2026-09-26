@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+  --bg:#07090d;--panel:#0d1118;--panel2:#111722;--text:#f5f7fa;--muted:#8d96a5;
+  --accent:#e31b23;--accent2:#ff3340;--line:rgba(255,255,255,.09);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.navbar{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid var(--line);background:rgba(7,9,13,.82);backdrop-filter:blur(14px);position:fixed;top:0;width:100%;z-index:20}
+.brand,.footer-brand{display:flex;align-items:center;gap:11px;font-size:14px;letter-spacing:1.2px;font-weight:800}
+.brand b{color:var(--accent)}
+.brand-mark{display:grid;place-items:center;width:37px;height:37px;border:1px solid rgba(227,27,35,.7);background:rgba(227,27,35,.1);font-size:10px;color:#fff;font-weight:900}
+nav{display:flex;gap:29px;color:#aeb6c3;font-size:12px;font-weight:600}
+nav a:hover{color:#fff}
+.nav-button,.button{display:inline-flex;align-items:center;justify-content:center;gap:12px;font-size:12px;font-weight:800;letter-spacing:.3px}
+.nav-button{padding:11px 18px;border:1px solid var(--line);background:#fff;color:#090b0f}
+.hero{min-height:100vh;padding:150px 8% 90px;display:flex;align-items:center;justify-content:space-between;gap:60px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:650px;height:650px;background:radial-gradient(circle,rgba(227,27,35,.16),transparent 67%);right:-130px;top:100px}
+.hero-content{max-width:720px;position:relative;z-index:1}
+.eyebrow,.section-label{color:var(--accent2);font-size:10px;font-weight:900;letter-spacing:2.2px}
+.hero h1{font-size:clamp(48px,7vw,92px);line-height:.95;letter-spacing:-4px;margin:18px 0 28px;font-weight:900}
+.hero h1 span,h2 span{color:var(--accent)}
+.hero p{max-width:650px;color:#9da6b4;font-size:16px}
+.hero-buttons{display:flex;gap:12px;margin:34px 0 45px;flex-wrap:wrap}
+.button{padding:15px 22px;border:1px solid var(--line)}
+.button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.button.primary:hover{background:var(--accent2)}
+.button.secondary{background:rgba(255,255,255,.03)}
+.hero-stats{display:flex;gap:42px}
+.hero-stats div{display:flex;flex-direction:column}
+.hero-stats strong{font-size:19px}.hero-stats span{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.hero-card{width:330px;height:410px;flex-shrink:0;background:linear-gradient(145deg,#151b25,#090c11);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;flex-direction:column;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.card-glow{position:absolute;width:230px;height:230px;background:radial-gradient(circle,rgba(227,27,35,.24),transparent 65%)}
+.emblem{width:130px;height:130px;border:1px solid rgba(227,27,35,.8);display:grid;place-items:center;font-weight:900;font-size:30px;letter-spacing:3px;transform:rotate(45deg);margin-bottom:55px}
+.emblem::first-letter{color:var(--accent)}
+.card-title{font-size:17px;font-weight:900;letter-spacing:2px}.card-subtitle{font-size:8px;color:#707987;letter-spacing:2px;margin-top:4px}
+.card-line{height:1px;width:70%;background:var(--line);margin:25px 0 15px}.online{font-size:9px;color:#aeb6c3}.online i{display:inline-block;width:6px;height:6px;border-radius:50%;background:#4bd37b;margin-right:7px}
+.section{padding:110px 8%;border-top:1px solid var(--line)}
+.two-col,.section-heading{display:grid;grid-template-columns:1fr 1fr;gap:70px;margin-top:25px}
+h2{font-size:clamp(38px,5vw,64px);line-height:1.02;letter-spacing:-2.5px}
+.lead{font-size:18px;color:#d3d8df;margin-bottom:18px}.two-col p:not(.lead){color:var(--muted);font-size:14px}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:70px}
+.feature-grid article,.dept{background:var(--panel);border:1px solid var(--line);padding:27px}
+.icon{color:var(--accent);font-size:23px;margin-bottom:30px}.feature-grid h3,.dept h3{font-size:16px;margin-bottom:7px}.feature-grid p,.dept p{font-size:12px;color:var(--muted)}
+.section-heading p{color:var(--muted);font-size:14px;align-self:end}
+.department-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:45px}
+.dept{min-height:210px;position:relative;overflow:hidden}.dept:hover{border-color:rgba(227,27,35,.45);transform:translateY(-3px);transition:.25s}
+.number{position:absolute;right:20px;top:18px;color:#3d4652;font-size:10px;font-weight:800}.dept-icon{font-size:27px;margin-bottom:28px}
+.update-list{margin-top:45px;border-top:1px solid var(--line)}.update-list article{display:grid;grid-template-columns:110px 1fr 20px;gap:25px;align-items:center;padding:24px 8px;border-bottom:1px solid var(--line)}
+.date{font-size:8px;color:var(--accent2);font-weight:900;letter-spacing:1px}.update-list h3{font-size:15px}.update-list p{font-size:12px;color:var(--muted);margin-top:3px}
+.join{padding:130px 8%;text-align:center;position:relative;overflow:hidden;border-top:1px solid var(--line)}
+.join:before{content:"";position:absolute;width:700px;height:300px;left:50%;top:10px;transform:translateX(-50%);background:radial-gradient(ellipse,rgba(227,27,35,.2),transparent 70%)}
+.join-inner{position:relative}.join h2{margin:20px 0}.join p{max-width:570px;margin:0 auto 30px;color:var(--muted);font-size:14px}.large{padding:17px 28px}
+footer{display:flex;justify-content:space-between;align-items:center;padding:30px 8%;border-top:1px solid var(--line);color:#697382;font-size:10px}
+footer a{color:#b5bdc9}.footer-brand{color:#fff}
+
+@media(max-width:850px){
+  nav{display:none}.navbar{padding:0 5%}.hero{padding:130px 6% 80px;flex-direction:column;align-items:flex-start}.hero-card{width:100%;max-width:330px;align-self:center}
+  .two-col,.section-heading{grid-template-columns:1fr;gap:25px}.feature-grid,.department-grid{grid-template-columns:1fr}.section{padding:80px 6%}
+  .hero h1{letter-spacing:-2px}.hero-stats{gap:25px}.update-list article{grid-template-columns:1fr;gap:8px}footer{flex-direction:column;gap:16px;text-align:center}
+}
