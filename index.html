@@ -3,224 +3,1161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cataluña PD — Comunidad de Roleplay de Emergency Response: Liberty County.">
-  <title>CATALUÑA PD — Roleplay Community</title>
+
+  <meta name="description" content="Cataluña PD — Comunidad de Roleplay de Emergency Response: Liberty County. Departamentos, operaciones, bandas gratuitas y una comunidad activa.">
+  <meta name="theme-color" content="#07090d">
+
+  <title>CATALUÑA PD | Roleplay Community</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="noise"></div>
-<div class="cursor-glow"></div>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
 
-<header class="navbar" id="navbar">
-  <a class="brand" href="#inicio">
-    <img src="logo.png" alt="Cataluña PD" class="brand-logo">
-    <span>CATALUÑA <b>PD</b></span>
-  </a>
+  <!-- =========================
+       NAVBAR
+  ========================== -->
 
-  <nav id="mainNav">
-    <a href="#inicio" class="active">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#departamentos">Departamentos</a>
-    <a href="#actualizaciones">Novedades</a>
-  </nav>
+  <header class="navbar" id="navbar">
 
-  <a class="nav-discord" href="https://discord.gg/2QE3z3wCvw" target="_blank" rel="noopener">
-    <span class="discord-dot"></span> Discord
-  </a>
+    <a href="#inicio" class="brand">
+      <img src="logo.png" alt="Logo Cataluña PD" class="brand-logo">
 
-  <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
-</header>
+      <span>
+        CATALUÑA <b>PD</b>
+      </span>
+    </a>
 
-<main>
-  <section class="hero" id="inicio">
-    <div class="hero-bg">
-      <div class="scanline"></div>
-      <div class="grid"></div>
-      <div class="radar radar-one"></div>
-      <div class="radar radar-two"></div>
-      <div class="lightbar redbar"></div>
-      <div class="lightbar bluebar"></div>
-    </div>
+    <nav id="mainNav">
 
-    <div class="hero-copy reveal">
-      <div class="status-pill"><i></i> SERVIDOR ACTIVO · ROLEPLAY</div>
-      <div class="hero-kicker">CATALUÑA · ESPAÑA</div>
-      <h1>VIVE EL<br><span>ROLEPLAY.</span></h1>
-      <p class="hero-text">
-        Una comunidad de <strong>Emergency Response: Liberty County</strong>
-        diseñada para ofrecer operaciones, departamentos y una experiencia de
-        Roleplay organizada y dinámica.
-      </p>
+      <a href="#inicio" class="active">
+        Inicio
+      </a>
 
-      <div class="hero-actions">
-        <a class="btn btn-red" href="https://discord.gg/2QE3z3wCvw" target="_blank" rel="noopener">
-          Entrar al Discord <b>↗</b>
-        </a>
-        <a class="btn btn-outline" href="#departamentos">Explorar comunidad</a>
+      <a href="#nosotros">
+        Nosotros
+      </a>
+
+      <a href="#departamentos">
+        Departamentos
+      </a>
+
+      <a href="#ventajas">
+        Ventajas
+      </a>
+
+      <a href="#actualizaciones">
+        Novedades
+      </a>
+
+    </nav>
+
+    <a
+      class="nav-discord"
+      href="https://discord.gg/2QE3z3wCvw"
+      target="_blank"
+      rel="noopener"
+    >
+      <span class="discord-dot"></span>
+      Discord
+    </a>
+
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      type="button"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero" id="inicio">
+
+      <div class="hero-bg">
+
+        <div class="scanline"></div>
+        <div class="grid"></div>
+
+        <div class="radar radar-one"></div>
+        <div class="radar radar-two"></div>
+
+        <div class="lightbar redbar"></div>
+        <div class="lightbar bluebar"></div>
+
       </div>
 
-      <div class="hero-metrics">
-        <div><strong>ER:LC</strong><span>PLATAFORMA</span></div>
-        <div><strong>RP</strong><span>EXPERIENCIA</span></div>
-        <div><strong>24/7</strong><span>COMUNIDAD</span></div>
-      </div>
-    </div>
 
-    <div class="hero-emblem reveal delay-2">
-      <div class="emblem-ring"></div>
-      <div class="emblem-card">
-        <span class="corner c1"></span><span class="corner c2"></span>
-        <span class="corner c3"></span><span class="corner c4"></span>
-        <img src="logo.png" alt="Logo Cataluña PD" class="hero-logo">
-        <div class="emblem-line"></div>
-        <div class="emblem-name">CATALUÑA PD</div>
-        <div class="emblem-sub">ROLEPLAY COMMUNITY</div>
-        <div class="emblem-status"><i></i> ONLINE</div>
-      </div>
-    </div>
+      <div class="hero-copy reveal">
 
-    <div class="scroll-cue"><span></span> SCROLL PARA DESCUBRIR</div>
-  </section>
+        <div class="status-pill">
+          <i></i>
+          SERVIDOR ACTIVO · ROLEPLAY
+        </div>
 
-  <section class="section intro" id="nosotros">
-    <div class="section-head reveal">
-      <div class="section-tag">01 / NOSOTROS</div>
-      <h2>NO ES SOLO UN<br><span>SERVIDOR DE RP.</span></h2>
-    </div>
+        <div class="hero-kicker">
+          CATALUÑA · ESPAÑA · ER:LC
+        </div>
 
-    <div class="intro-grid">
-      <div class="intro-copy reveal">
-        <p class="big">
-          Cataluña PD nace para crear una comunidad donde cada operación,
-          cada departamento y cada jugador tenga un papel.
+        <h1>
+          VIVE EL
+          <br>
+          <span>ROLEPLAY.</span>
+        </h1>
+
+        <p class="hero-text">
+          Cataluña PD es una comunidad de
+          <strong>Emergency Response: Liberty County</strong>
+          creada para ofrecer una experiencia de Roleplay seria,
+          organizada y diferente.
         </p>
+
+
+        <div class="hero-highlights">
+
+          <div class="hero-highlight">
+            <span>✓</span>
+            <div>
+              <strong>SIN OPOSICIONES</strong>
+              <small>Acceso a departamentos</small>
+            </div>
+          </div>
+
+          <div class="hero-highlight">
+            <span>✓</span>
+            <div>
+              <strong>BANDAS GRATIS</strong>
+              <small>Crea tu propia organización</small>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="hero-actions">
+
+          <a
+            class="btn btn-red"
+            href="https://discord.gg/2QE3z3wCvw"
+            target="_blank"
+            rel="noopener"
+          >
+            ENTRAR AL DISCORD
+            <b>↗</b>
+          </a>
+
+          <a
+            class="btn btn-outline"
+            href="#departamentos"
+          >
+            VER DEPARTAMENTOS
+          </a>
+
+        </div>
+
+
+        <div class="hero-metrics">
+
+          <div>
+            <strong>ER:LC</strong>
+            <span>PLATAFORMA</span>
+          </div>
+
+          <div>
+            <strong>5+</strong>
+            <span>DEPARTAMENTOS</span>
+          </div>
+
+          <div>
+            <strong>100%</strong>
+            <span>COMUNIDAD RP</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-emblem reveal delay-2">
+
+        <div class="emblem-ring"></div>
+
+        <div class="emblem-card">
+
+          <span class="corner c1"></span>
+          <span class="corner c2"></span>
+          <span class="corner c3"></span>
+          <span class="corner c4"></span>
+
+          <div class="emblem-status-top">
+            <span></span>
+            CATALUÑA PD SYSTEM
+          </div>
+
+          <img
+            src="logo.png"
+            alt="Logo Cataluña PD"
+            class="hero-logo"
+          >
+
+          <div class="emblem-line"></div>
+
+          <div class="emblem-name">
+            CATALUÑA PD
+          </div>
+
+          <div class="emblem-sub">
+            ROLEPLAY COMMUNITY
+          </div>
+
+          <div class="emblem-status">
+            <i></i>
+            SERVIDOR ONLINE
+          </div>
+
+          <div class="emblem-code">
+            CPD / 2026
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="scroll-cue">
+        <span></span>
+        SCROLL PARA DESCUBRIR
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         NOSOTROS
+    ========================== -->
+
+    <section class="section intro" id="nosotros">
+
+      <div class="section-head reveal">
+
+        <div class="section-tag">
+          01 / NOSOTROS
+        </div>
+
+        <h2>
+          NO ES SOLO UN
+          <br>
+          <span>SERVIDOR DE RP.</span>
+        </h2>
+
+      </div>
+
+
+      <div class="intro-grid">
+
+        <div class="intro-copy reveal">
+
+          <p class="big">
+            Cataluña PD nace con una idea clara:
+            crear una comunidad donde cada jugador
+            pueda formar parte de una experiencia
+            de Roleplay completa.
+          </p>
+
+          <p>
+            Nuestra comunidad reúne diferentes departamentos,
+            operaciones, servicios y organizaciones para crear
+            situaciones dinámicas y una experiencia que cambie
+            en cada sesión.
+          </p>
+
+          <p>
+            No buscamos simplemente llenar un servidor.
+            Buscamos construir una comunidad activa,
+            organizada y con identidad propia.
+          </p>
+
+          <a
+            class="text-link"
+            href="https://discord.gg/2QE3z3wCvw"
+            target="_blank"
+            rel="noopener"
+          >
+            CONOCE CATALUÑA PD
+            <span>→</span>
+          </a>
+
+        </div>
+
+
+        <div class="feature-stack reveal delay-1">
+
+          <article class="feature">
+
+            <span class="feature-num">
+              01
+            </span>
+
+            <div>
+              <b>
+                ROLEPLAY ORGANIZADO
+              </b>
+
+              <p>
+                Una estructura preparada para
+                ofrecer mejores situaciones RP.
+              </p>
+            </div>
+
+            <span>↗</span>
+
+          </article>
+
+
+          <article class="feature">
+
+            <span class="feature-num">
+              02
+            </span>
+
+            <div>
+              <b>
+                SIN OPOSICIONES
+              </b>
+
+              <p>
+                Puedes formar parte de nuestros
+                departamentos sin pasar por oposiciones.
+              </p>
+            </div>
+
+            <span>↗</span>
+
+          </article>
+
+
+          <article class="feature">
+
+            <span class="feature-num">
+              03
+            </span>
+
+            <div>
+              <b>
+                BANDAS GRATUITAS
+              </b>
+
+              <p>
+                Crea y desarrolla tu propia organización
+                dentro del Roleplay.
+              </p>
+            </div>
+
+            <span>↗</span>
+
+          </article>
+
+
+          <article class="feature">
+
+            <span class="feature-num">
+              04
+            </span>
+
+            <div>
+              <b>
+                COMUNIDAD ACTIVA
+              </b>
+
+              <p>
+                Eventos, operaciones y actividades
+                organizadas para la comunidad.
+              </p>
+            </div>
+
+            <span>↗</span>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         DEPARTAMENTOS
+    ========================== -->
+
+    <section
+      class="section departments"
+      id="departamentos"
+    >
+
+      <div class="section-head split reveal">
+
+        <div>
+
+          <div class="section-tag">
+            02 / DEPARTAMENTOS
+          </div>
+
+          <h2>
+            ENCUENTRA TU
+            <br>
+            <span>CAMINO.</span>
+          </h2>
+
+        </div>
+
         <p>
-          Organizamos la experiencia alrededor de procedimientos, eventos,
-          operaciones y una comunidad activa. El objetivo es que entrar al
-          servidor se sienta como formar parte de algo más grande.
+          Elige tu departamento y forma parte de las
+          diferentes áreas que componen Cataluña PD.
+          <strong>Sin oposiciones.</strong>
         </p>
-        <a class="text-link" href="https://discord.gg/2QE3z3wCvw" target="_blank" rel="noopener">
-          CONOCE LA COMUNIDAD <span>→</span>
-        </a>
+
       </div>
 
-      <div class="feature-stack reveal delay-1">
-        <article class="feature">
-          <span class="feature-num">01</span>
-          <div><b>SISTEMAS PROPIOS</b><p>Herramientas pensadas para mejorar cada sesión.</p></div>
-          <span>↗</span>
+
+      <div class="dept-grid">
+
+
+        <!-- MOSSOS -->
+
+        <article class="dept-card dept-red reveal">
+
+          <div class="dept-number">
+            01
+          </div>
+
+          <div class="dept-icon">
+            🚔
+          </div>
+
+          <div class="dept-badge">
+            POLICÍA
+          </div>
+
+          <h3>
+            MOSSOS D'ESQUADRA
+          </h3>
+
+          <p>
+            Seguridad, patrullaje, investigaciones,
+            intervenciones y operaciones policiales.
+          </p>
+
+          <div class="dept-footer">
+            <span>
+              ACCESO DIRECTO
+            </span>
+
+            <b>→</b>
+          </div>
+
         </article>
-        <article class="feature">
-          <span class="feature-num">02</span>
-          <div><b>ROLEPLAY ORGANIZADO</b><p>Departamentos, procedimientos y operaciones.</p></div>
-          <span>↗</span>
+
+
+        <!-- SEM -->
+
+        <article class="dept-card dept-blue reveal delay-1">
+
+          <div class="dept-number">
+            02
+          </div>
+
+          <div class="dept-icon">
+            🚑
+          </div>
+
+          <div class="dept-badge">
+            SANIDAD
+          </div>
+
+          <h3>
+            SEM
+          </h3>
+
+          <p>
+            Atención sanitaria, emergencias médicas,
+            rescates y asistencia a ciudadanos.
+          </p>
+
+          <div class="dept-footer">
+            <span>
+              ACCESO DIRECTO
+            </span>
+
+            <b>→</b>
+          </div>
+
         </article>
-        <article class="feature">
-          <span class="feature-num">03</span>
-          <div><b>COMUNIDAD</b><p>Un punto de encuentro para jugadores y staff.</p></div>
-          <span>↗</span>
+
+
+        <!-- BOMBEROS -->
+
+        <article class="dept-card dept-orange reveal delay-2">
+
+          <div class="dept-number">
+            03
+          </div>
+
+          <div class="dept-icon">
+            🚒
+          </div>
+
+          <div class="dept-badge">
+            EMERGENCIAS
+          </div>
+
+          <h3>
+            BOMBERS
+          </h3>
+
+          <p>
+            Incendios, rescates, accidentes y
+            operaciones de emergencia.
+          </p>
+
+          <div class="dept-footer">
+            <span>
+              ACCESO DIRECTO
+            </span>
+
+            <b>→</b>
+          </div>
+
         </article>
+
+
+        <!-- CNP -->
+
+        <article class="dept-card dept-dark reveal">
+
+          <div class="dept-number">
+            04
+          </div>
+
+          <div class="dept-icon">
+            🛡️
+          </div>
+
+          <div class="dept-badge">
+            POLICÍA
+          </div>
+
+          <h3>
+            CNP
+          </h3>
+
+          <p>
+            Operaciones policiales, unidades especiales
+            y actuaciones de seguridad.
+          </p>
+
+          <div class="dept-footer">
+            <span>
+              ACCESO DIRECTO
+            </span>
+
+            <b>→</b>
+          </div>
+
+        </article>
+
+
+        <!-- CARRETERAS -->
+
+        <article class="dept-card dept-green reveal delay-1">
+
+          <div class="dept-number">
+            05
+          </div>
+
+          <div class="dept-icon">
+            🛣️
+          </div>
+
+          <div class="dept-badge">
+            SERVICIO PÚBLICO
+          </div>
+
+          <h3>
+            CONSERVACIÓN EN CARRETERAS
+          </h3>
+
+          <p>
+            Mantenimiento, asistencia en carretera,
+            señalización y gestión de incidencias.
+          </p>
+
+          <div class="dept-footer">
+            <span>
+              ACCESO DIRECTO
+            </span>
+
+            <b>→</b>
+          </div>
+
+        </article>
+
+
+        <!-- BANDAS -->
+
+        <article class="dept-card dept-purple reveal delay-2">
+
+          <div class="dept-number">
+            06
+          </div>
+
+          <div class="dept-icon">
+            🏴
+          </div>
+
+          <div class="dept-badge">
+            ORGANIZACIONES
+          </div>
+
+          <h3>
+            BANDAS
+          </h3>
+
+          <p>
+            Crea tu propia organización y desarrolla
+            tu historia dentro del Roleplay.
+          </p>
+
+          <div class="dept-footer">
+            <span>
+              GRATIS
+            </span>
+
+            <b>→</b>
+          </div>
+
+        </article>
+
       </div>
-    </div>
-  </section>
 
-  <section class="section departments" id="departamentos">
-    <div class="section-head split reveal">
-      <div>
-        <div class="section-tag">02 / DEPARTAMENTOS</div>
-        <h2>ELIGE TU<br><span>CAMINO.</span></h2>
+    </section>
+
+
+    <!-- =========================
+         VENTAJAS
+    ========================== -->
+
+    <section
+      class="advantages"
+      id="ventajas"
+    >
+
+      <div class="advantages-bg"></div>
+
+      <div class="advantages-inner">
+
+        <div class="section-tag">
+          03 / ¿POR QUÉ NOSOTROS?
+        </div>
+
+        <h2 class="reveal">
+          ENTRA.
+          <br>
+          <span>PARTICIPA.</span>
+          <br>
+          DISFRUTA.
+        </h2>
+
+        <p class="advantages-intro reveal delay-1">
+          Hemos diseñado Cataluña PD para que entrar a la
+          comunidad sea sencillo y que cada jugador pueda
+          encontrar su sitio.
+        </p>
+
+
+        <div class="advantages-grid">
+
+
+          <article class="advantage-card reveal">
+
+            <div class="advantage-icon">
+              ✓
+            </div>
+
+            <div>
+              <strong>
+                SIN OPOSICIONES
+              </strong>
+
+              <p>
+                No necesitas superar unas oposiciones
+                para poder entrar a nuestros departamentos.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="advantage-card reveal delay-1">
+
+            <div class="advantage-icon">
+              €
+            </div>
+
+            <div>
+              <strong>
+                BANDAS GRATIS
+              </strong>
+
+              <p>
+                Las organizaciones y bandas forman parte
+                de la experiencia sin coste.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="advantage-card reveal delay-2">
+
+            <div class="advantage-icon">
+              RP
+            </div>
+
+            <div>
+              <strong>
+                ROLEPLAY ACTIVO
+              </strong>
+
+              <p>
+                Operaciones, servicios y situaciones
+                creadas para mantener el servidor activo.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="advantage-card reveal">
+
+            <div class="advantage-icon">
+              +
+            </div>
+
+            <div>
+              <strong>
+                COMUNIDAD
+              </strong>
+
+              <p>
+                Un espacio para conocer jugadores,
+                formar equipos y crear historias.
+              </p>
+            </div>
+
+          </article>
+
+        </div>
+
       </div>
-      <p>Policía, emergencias y servicios públicos. Encuentra el departamento que encaje contigo.</p>
-    </div>
 
-    <div class="dept-grid">
-      <article class="dept-card reveal"><span>01</span><div class="dept-icon">🚔</div><h3>MOSSOS D'ESQUADRA</h3><p>Seguridad, patrullaje e intervención.</p><b>VER DEPARTAMENTO →</b></article>
-      <article class="dept-card reveal delay-1"><span>02</span><div class="dept-icon">🚓</div><h3>GUARDIA URBANA</h3><p>Seguridad y regulación municipal.</p><b>VER DEPARTAMENTO →</b></article>
-      <article class="dept-card reveal delay-2"><span>03</span><div class="dept-icon">🛡️</div><h3>CNP</h3><p>Unidades y operaciones policiales.</p><b>VER DEPARTAMENTO →</b></article>
-      <article class="dept-card reveal"><span>04</span><div class="dept-icon">🚑</div><h3>SEM</h3><p>Atención sanitaria y emergencias.</p><b>VER DEPARTAMENTO →</b></article>
-      <article class="dept-card reveal delay-1"><span>05</span><div class="dept-icon">🚒</div><h3>BOMBERS</h3><p>Incendios, rescates y emergencias.</p><b>VER DEPARTAMENTO →</b></article>
-      <article class="dept-card reveal delay-2"><span>06</span><div class="dept-icon">🌲</div><h3>AGENTS RURALS</h3><p>Protección y vigilancia del entorno.</p><b>VER DEPARTAMENTO →</b></article>
-    </div>
-  </section>
+    </section>
 
-  <section class="operations">
-    <div class="operations-bg"></div>
-    <div class="operations-inner">
-      <div class="section-tag">03 / EXPERIENCIA</div>
-      <h2 class="reveal">OPERACIONES.<br><span>ADRENALINA. RP.</span></h2>
-      <p class="reveal delay-1">
-        Una identidad visual inspirada en unidades de emergencia,
-        con una interfaz rápida, oscura y tecnológica.
-      </p>
 
-      <div class="operation-cards">
-        <div class="op-card reveal"><strong>01</strong><span>Patrullaje</span><small>OPERACIONES</small></div>
-        <div class="op-card reveal delay-1"><strong>02</strong><span>Emergencias</span><small>RESPUESTA</small></div>
-        <div class="op-card reveal delay-2"><strong>03</strong><span>Eventos</span><small>COMUNIDAD</small></div>
+    <!-- =========================
+         EXPERIENCIA
+    ========================== -->
+
+    <section class="operations">
+
+      <div class="operations-bg"></div>
+
+      <div class="operations-inner">
+
+        <div class="section-tag">
+          04 / EXPERIENCIA
+        </div>
+
+        <h2 class="reveal">
+          OPERACIONES.
+          <br>
+          <span>ADRENALINA. RP.</span>
+        </h2>
+
+        <p class="reveal delay-1">
+          Cada sesión puede convertirse en una nueva historia.
+          Patrullajes, emergencias, accidentes, investigaciones,
+          servicios públicos y situaciones entre civiles.
+        </p>
+
+
+        <div class="operation-cards">
+
+
+          <div class="op-card reveal">
+
+            <strong>
+              01
+            </strong>
+
+            <span>
+              Patrullaje
+            </span>
+
+            <small>
+              SEGURIDAD
+            </small>
+
+          </div>
+
+
+          <div class="op-card reveal delay-1">
+
+            <strong>
+              02
+            </strong>
+
+            <span>
+              Emergencias
+            </span>
+
+            <small>
+              RESPUESTA
+            </small>
+
+          </div>
+
+
+          <div class="op-card reveal delay-2">
+
+            <strong>
+              03
+            </strong>
+
+            <span>
+              Carreteras
+            </span>
+
+            <small>
+              SERVICIO
+            </small>
+
+          </div>
+
+
+          <div class="op-card reveal">
+
+            <strong>
+              04
+            </strong>
+
+            <span>
+              Organizaciones
+            </span>
+
+            <small>
+              CIVILES
+            </small>
+
+          </div>
+
+        </div>
+
       </div>
-    </div>
-  </section>
 
-  <section class="section updates" id="actualizaciones">
-    <div class="section-head split reveal">
-      <div>
-        <div class="section-tag">04 / NOVEDADES</div>
-        <h2>SIEMPRE<br><span>AVANZANDO.</span></h2>
-      </div>
-      <p>Las novedades y actividades de Cataluña PD se comunican a través de nuestra comunidad.</p>
-    </div>
+    </section>
 
-    <div class="timeline">
-      <article class="timeline-item reveal">
-        <span>NUEVO</span><div><h3>Sistemas y comandos</h3><p>Ampliamos las herramientas disponibles para la comunidad.</p></div><b>→</b>
-      </article>
-      <article class="timeline-item reveal delay-1">
-        <span>SERVIDOR</span><div><h3>Mejoras de Roleplay</h3><p>Nuevos contenidos y mejoras para departamentos y jugadores.</p></div><b>→</b>
-      </article>
-      <article class="timeline-item reveal delay-2">
-        <span>EVENTOS</span><div><h3>Actividades de comunidad</h3><p>Participa en actividades organizadas por Cataluña PD.</p></div><b>→</b>
-      </article>
-    </div>
-  </section>
 
-  <section class="join" id="discord">
-    <div class="join-grid">
-      <div class="join-copy reveal">
-        <div class="section-tag">05 / DISCORD</div>
-        <h2>¿TE UNES<br><span>A LA UNIDAD?</span></h2>
+    <!-- =========================
+         NOVEDADES
+    ========================== -->
+
+    <section
+      class="section updates"
+      id="actualizaciones"
+    >
+
+      <div class="section-head split reveal">
+
+        <div>
+
+          <div class="section-tag">
+            05 / NOVEDADES
+          </div>
+
+          <h2>
+            SIEMPRE
+            <br>
+            <span>AVANZANDO.</span>
+          </h2>
+
+        </div>
+
         <p>
-          Entra a nuestro Discord, conoce la comunidad y descubre todo lo que
-          Cataluña PD tiene preparado.
+          Cataluña PD continúa evolucionando para ofrecer
+          nuevas funciones, sistemas y experiencias a la comunidad.
         </p>
-        <a class="btn btn-discord" href="https://discord.gg/2QE3z3wCvw" target="_blank" rel="noopener">
-          <span>◉</span> ABRIR DISCORD <b>↗</b>
-        </a>
+
       </div>
 
-      <div class="discord-panel reveal delay-1">
-        <div class="discord-top"><i></i> CATALUÑA PD / COMMUNITY</div>
-        <img src="logo.png" alt="Cataluña PD" class="discord-logo">
-        <div class="discord-url">discord.gg/2QE3z3wCvw</div>
-        <div class="discord-bars"><span></span><span></span><span></span><span></span><span></span></div>
-        <small>ENTRADA ABIERTA · ROLEPLAY COMMUNITY</small>
+
+      <div class="timeline">
+
+
+        <article class="timeline-item reveal">
+
+          <span>
+            COMUNIDAD
+          </span>
+
+          <div>
+
+            <h3>
+              Nuevas experiencias
+            </h3>
+
+            <p>
+              Seguimos ampliando las posibilidades de Roleplay
+              para todos los jugadores.
+            </p>
+
+          </div>
+
+          <b>
+            →
+          </b>
+
+        </article>
+
+
+        <article class="timeline-item reveal delay-1">
+
+          <span>
+            SISTEMAS
+          </span>
+
+          <div>
+
+            <h3>
+              Nuevas herramientas
+            </h3>
+
+            <p>
+              Mejoras y sistemas diseñados para facilitar
+              y mejorar las operaciones.
+            </p>
+
+          </div>
+
+          <b>
+            →
+          </b>
+
+        </article>
+
+
+        <article class="timeline-item reveal delay-2">
+
+          <span>
+            EVENTOS
+          </span>
+
+          <div>
+
+            <h3>
+              Actividades de comunidad
+            </h3>
+
+            <p>
+              Participa en eventos y situaciones especiales
+              organizadas dentro de Cataluña PD.
+            </p>
+
+          </div>
+
+          <b>
+            →
+          </b>
+
+        </article>
+
+
       </div>
+
+    </section>
+
+
+    <!-- =========================
+         DISCORD
+    ========================== -->
+
+    <section
+      class="join"
+      id="discord"
+    >
+
+      <div class="join-grid">
+
+        <div class="join-copy reveal">
+
+          <div class="section-tag">
+            06 / DISCORD
+          </div>
+
+          <h2>
+            ¿TE UNES
+            <br>
+            <span>A CATALUÑA PD?</span>
+          </h2>
+
+          <p>
+            Entra a nuestro Discord, conoce a la comunidad
+            y empieza a formar parte de Cataluña PD.
+          </p>
+
+
+          <div class="join-points">
+
+            <div>
+              <span>✓</span>
+              Acceso a la comunidad
+            </div>
+
+            <div>
+              <span>✓</span>
+              Departamentos sin oposiciones
+            </div>
+
+            <div>
+              <span>✓</span>
+              Bandas gratuitas
+            </div>
+
+          </div>
+
+
+          <a
+            class="btn btn-discord"
+            href="https://discord.gg/2QE3z3wCvw"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>◉</span>
+            ABRIR DISCORD
+            <b>↗</b>
+          </a>
+
+        </div>
+
+
+        <div class="discord-panel reveal delay-1">
+
+          <div class="discord-top">
+            <i></i>
+            CATALUÑA PD / COMMUNITY
+          </div>
+
+          <img
+            src="logo.png"
+            alt="Logo Cataluña PD"
+            class="discord-logo"
+          >
+
+          <div class="discord-url">
+            discord.gg/2QE3z3wCvw
+          </div>
+
+          <div class="discord-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <small>
+            ENTRADA ABIERTA · ROLEPLAY COMMUNITY
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="footer-brand">
+
+      <img
+        src="logo.png"
+        alt="Cataluña PD"
+      >
+
+      <div>
+
+        <strong>
+          CATALUÑA PD
+        </strong>
+
+        <small>
+          ROLEPLAY COMMUNITY
+        </small>
+
+      </div>
+
     </div>
-  </section>
-</main>
 
-<footer>
-  <div class="footer-brand">
-    <img src="logo.png" alt="Cataluña PD">
-    <div><strong>CATALUÑA PD</strong><small>ROLEPLAY COMMUNITY</small></div>
-  </div>
-  <div>© 2026 Cataluña PD · Comunidad independiente</div>
-  <a href="#inicio">VOLVER ARRIBA ↑</a>
-</footer>
 
-<script src="script.js"></script>
+    <div class="footer-center">
+      © 2026 Cataluña PD · Comunidad independiente
+    </div>
+
+
+    <div class="footer-links">
+
+      <a
+        href="https://discord.gg/2QE3z3wCvw"
+        target="_blank"
+        rel="noopener"
+      >
+        DISCORD
+      </a>
+
+      <a href="#inicio">
+        VOLVER ARRIBA ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
