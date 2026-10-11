@@ -1,1163 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta name="description" content="Cataluña PD — Comunidad de Roleplay de Emergency Response: Liberty County. Departamentos, operaciones, bandas gratuitas y una comunidad activa.">
-  <meta name="theme-color" content="#07090d">
-
-  <title>CATALUÑA PD | Roleplay Community</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rommat Try Out — Matricería Profesional</title>
+<meta name="description" content="Rommat Try Out, matricería profesional para automoción en Manresa.">
+<link rel="stylesheet" href="/style.css">
 </head>
-
 <body>
-
-  <div class="noise"></div>
-  <div class="cursor-glow"></div>
-
-  <!-- =========================
-       NAVBAR
-  ========================== -->
-
-  <header class="navbar" id="navbar">
-
-    <a href="#inicio" class="brand">
-      <img src="logo.png" alt="Logo Cataluña PD" class="brand-logo">
-
-      <span>
-        CATALUÑA <b>PD</b>
-      </span>
-    </a>
-
-    <nav id="mainNav">
-
-      <a href="#inicio" class="active">
-        Inicio
-      </a>
-
-      <a href="#nosotros">
-        Nosotros
-      </a>
-
-      <a href="#departamentos">
-        Departamentos
-      </a>
-
-      <a href="#ventajas">
-        Ventajas
-      </a>
-
-      <a href="#actualizaciones">
-        Novedades
-      </a>
-
+<header class="header">
+  <div class="nav">
+    <a class="logo" href="#inicio"><span>R</span><b>M</b><i>R</i></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="menu">
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
     </nav>
+    <div class="nav-actions">
+      <a href="mailto:info@rommattryout.es">info@rommattryout.es</a>
+      <a class="mini-cta" href="#presupuesto">Solicitar Presupuesto</a>
+      <button id="mode" class="mode" aria-label="Cambiar modo">☼</button>
+    </div>
+  </div>
+</header>
 
-    <a
-      class="nav-discord"
-      href="https://discord.gg/2QE3z3wCvw"
-      target="_blank"
-      rel="noopener"
-    >
-      <span class="discord-dot"></span>
-      Discord
-    </a>
-
-    <button
-      class="menu-btn"
-      id="menuBtn"
-      type="button"
-      aria-label="Abrir menú"
-      aria-expanded="false"
-    >
-      ☰
-    </button>
-
-  </header>
-
-
-  <main>
-
-    <!-- =========================
-         HERO
-    ========================== -->
-
-    <section class="hero" id="inicio">
-
-      <div class="hero-bg">
-
-        <div class="scanline"></div>
-        <div class="grid"></div>
-
-        <div class="radar radar-one"></div>
-        <div class="radar radar-two"></div>
-
-        <div class="lightbar redbar"></div>
-        <div class="lightbar bluebar"></div>
-
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-bg"></div><div class="hero-shade"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <h1>Experiencia en<br><span>Matricería</span><br>Profesional</h1>
+      <p>Somos <strong>Rommat Try Out</strong>, un grupo de <strong>profesionales</strong> con más de <em>20 años de experiencia</em> en matricería para automoción, con sede en <strong>Manresa, Barcelona.</strong></p>
+      <div class="hero-buttons">
+        <a class="btn yellow" href="#presupuesto">Solicitar Presupuesto <b>→</b></a>
+        <a class="btn ghost" href="#nosotros">Conocer Más</a>
       </div>
-
-
-      <div class="hero-copy reveal">
-
-        <div class="status-pill">
-          <i></i>
-          SERVIDOR ACTIVO · ROLEPLAY
-        </div>
-
-        <div class="hero-kicker">
-          CATALUÑA · ESPAÑA · ER:LC
-        </div>
-
-        <h1>
-          VIVE EL
-          <br>
-          <span>ROLEPLAY.</span>
-        </h1>
-
-        <p class="hero-text">
-          Cataluña PD es una comunidad de
-          <strong>Emergency Response: Liberty County</strong>
-          creada para ofrecer una experiencia de Roleplay seria,
-          organizada y diferente.
-        </p>
-
-
-        <div class="hero-highlights">
-
-          <div class="hero-highlight">
-            <span>✓</span>
-            <div>
-              <strong>SIN OPOSICIONES</strong>
-              <small>Acceso a departamentos</small>
-            </div>
-          </div>
-
-          <div class="hero-highlight">
-            <span>✓</span>
-            <div>
-              <strong>BANDAS GRATIS</strong>
-              <small>Crea tu propia organización</small>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div class="hero-actions">
-
-          <a
-            class="btn btn-red"
-            href="https://discord.gg/2QE3z3wCvw"
-            target="_blank"
-            rel="noopener"
-          >
-            ENTRAR AL DISCORD
-            <b>↗</b>
-          </a>
-
-          <a
-            class="btn btn-outline"
-            href="#departamentos"
-          >
-            VER DEPARTAMENTOS
-          </a>
-
-        </div>
-
-
-        <div class="hero-metrics">
-
-          <div>
-            <strong>ER:LC</strong>
-            <span>PLATAFORMA</span>
-          </div>
-
-          <div>
-            <strong>5+</strong>
-            <span>DEPARTAMENTOS</span>
-          </div>
-
-          <div>
-            <strong>100%</strong>
-            <span>COMUNIDAD RP</span>
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <div class="hero-emblem reveal delay-2">
-
-        <div class="emblem-ring"></div>
-
-        <div class="emblem-card">
-
-          <span class="corner c1"></span>
-          <span class="corner c2"></span>
-          <span class="corner c3"></span>
-          <span class="corner c4"></span>
-
-          <div class="emblem-status-top">
-            <span></span>
-            CATALUÑA PD SYSTEM
-          </div>
-
-          <img
-            src="logo.png"
-            alt="Logo Cataluña PD"
-            class="hero-logo"
-          >
-
-          <div class="emblem-line"></div>
-
-          <div class="emblem-name">
-            CATALUÑA PD
-          </div>
-
-          <div class="emblem-sub">
-            ROLEPLAY COMMUNITY
-          </div>
-
-          <div class="emblem-status">
-            <i></i>
-            SERVIDOR ONLINE
-          </div>
-
-          <div class="emblem-code">
-            CPD / 2026
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <div class="scroll-cue">
-        <span></span>
-        SCROLL PARA DESCUBRIR
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         NOSOTROS
-    ========================== -->
-
-    <section class="section intro" id="nosotros">
-
-      <div class="section-head reveal">
-
-        <div class="section-tag">
-          01 / NOSOTROS
-        </div>
-
-        <h2>
-          NO ES SOLO UN
-          <br>
-          <span>SERVIDOR DE RP.</span>
-        </h2>
-
-      </div>
-
-
-      <div class="intro-grid">
-
-        <div class="intro-copy reveal">
-
-          <p class="big">
-            Cataluña PD nace con una idea clara:
-            crear una comunidad donde cada jugador
-            pueda formar parte de una experiencia
-            de Roleplay completa.
-          </p>
-
-          <p>
-            Nuestra comunidad reúne diferentes departamentos,
-            operaciones, servicios y organizaciones para crear
-            situaciones dinámicas y una experiencia que cambie
-            en cada sesión.
-          </p>
-
-          <p>
-            No buscamos simplemente llenar un servidor.
-            Buscamos construir una comunidad activa,
-            organizada y con identidad propia.
-          </p>
-
-          <a
-            class="text-link"
-            href="https://discord.gg/2QE3z3wCvw"
-            target="_blank"
-            rel="noopener"
-          >
-            CONOCE CATALUÑA PD
-            <span>→</span>
-          </a>
-
-        </div>
-
-
-        <div class="feature-stack reveal delay-1">
-
-          <article class="feature">
-
-            <span class="feature-num">
-              01
-            </span>
-
-            <div>
-              <b>
-                ROLEPLAY ORGANIZADO
-              </b>
-
-              <p>
-                Una estructura preparada para
-                ofrecer mejores situaciones RP.
-              </p>
-            </div>
-
-            <span>↗</span>
-
-          </article>
-
-
-          <article class="feature">
-
-            <span class="feature-num">
-              02
-            </span>
-
-            <div>
-              <b>
-                SIN OPOSICIONES
-              </b>
-
-              <p>
-                Puedes formar parte de nuestros
-                departamentos sin pasar por oposiciones.
-              </p>
-            </div>
-
-            <span>↗</span>
-
-          </article>
-
-
-          <article class="feature">
-
-            <span class="feature-num">
-              03
-            </span>
-
-            <div>
-              <b>
-                BANDAS GRATUITAS
-              </b>
-
-              <p>
-                Crea y desarrolla tu propia organización
-                dentro del Roleplay.
-              </p>
-            </div>
-
-            <span>↗</span>
-
-          </article>
-
-
-          <article class="feature">
-
-            <span class="feature-num">
-              04
-            </span>
-
-            <div>
-              <b>
-                COMUNIDAD ACTIVA
-              </b>
-
-              <p>
-                Eventos, operaciones y actividades
-                organizadas para la comunidad.
-              </p>
-            </div>
-
-            <span>↗</span>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         DEPARTAMENTOS
-    ========================== -->
-
-    <section
-      class="section departments"
-      id="departamentos"
-    >
-
-      <div class="section-head split reveal">
-
-        <div>
-
-          <div class="section-tag">
-            02 / DEPARTAMENTOS
-          </div>
-
-          <h2>
-            ENCUENTRA TU
-            <br>
-            <span>CAMINO.</span>
-          </h2>
-
-        </div>
-
-        <p>
-          Elige tu departamento y forma parte de las
-          diferentes áreas que componen Cataluña PD.
-          <strong>Sin oposiciones.</strong>
-        </p>
-
-      </div>
-
-
-      <div class="dept-grid">
-
-
-        <!-- MOSSOS -->
-
-        <article class="dept-card dept-red reveal">
-
-          <div class="dept-number">
-            01
-          </div>
-
-          <div class="dept-icon">
-            🚔
-          </div>
-
-          <div class="dept-badge">
-            POLICÍA
-          </div>
-
-          <h3>
-            MOSSOS D'ESQUADRA
-          </h3>
-
-          <p>
-            Seguridad, patrullaje, investigaciones,
-            intervenciones y operaciones policiales.
-          </p>
-
-          <div class="dept-footer">
-            <span>
-              ACCESO DIRECTO
-            </span>
-
-            <b>→</b>
-          </div>
-
-        </article>
-
-
-        <!-- SEM -->
-
-        <article class="dept-card dept-blue reveal delay-1">
-
-          <div class="dept-number">
-            02
-          </div>
-
-          <div class="dept-icon">
-            🚑
-          </div>
-
-          <div class="dept-badge">
-            SANIDAD
-          </div>
-
-          <h3>
-            SEM
-          </h3>
-
-          <p>
-            Atención sanitaria, emergencias médicas,
-            rescates y asistencia a ciudadanos.
-          </p>
-
-          <div class="dept-footer">
-            <span>
-              ACCESO DIRECTO
-            </span>
-
-            <b>→</b>
-          </div>
-
-        </article>
-
-
-        <!-- BOMBEROS -->
-
-        <article class="dept-card dept-orange reveal delay-2">
-
-          <div class="dept-number">
-            03
-          </div>
-
-          <div class="dept-icon">
-            🚒
-          </div>
-
-          <div class="dept-badge">
-            EMERGENCIAS
-          </div>
-
-          <h3>
-            BOMBERS
-          </h3>
-
-          <p>
-            Incendios, rescates, accidentes y
-            operaciones de emergencia.
-          </p>
-
-          <div class="dept-footer">
-            <span>
-              ACCESO DIRECTO
-            </span>
-
-            <b>→</b>
-          </div>
-
-        </article>
-
-
-        <!-- CNP -->
-
-        <article class="dept-card dept-dark reveal">
-
-          <div class="dept-number">
-            04
-          </div>
-
-          <div class="dept-icon">
-            🛡️
-          </div>
-
-          <div class="dept-badge">
-            POLICÍA
-          </div>
-
-          <h3>
-            CNP
-          </h3>
-
-          <p>
-            Operaciones policiales, unidades especiales
-            y actuaciones de seguridad.
-          </p>
-
-          <div class="dept-footer">
-            <span>
-              ACCESO DIRECTO
-            </span>
-
-            <b>→</b>
-          </div>
-
-        </article>
-
-
-        <!-- CARRETERAS -->
-
-        <article class="dept-card dept-green reveal delay-1">
-
-          <div class="dept-number">
-            05
-          </div>
-
-          <div class="dept-icon">
-            🛣️
-          </div>
-
-          <div class="dept-badge">
-            SERVICIO PÚBLICO
-          </div>
-
-          <h3>
-            CONSERVACIÓN EN CARRETERAS
-          </h3>
-
-          <p>
-            Mantenimiento, asistencia en carretera,
-            señalización y gestión de incidencias.
-          </p>
-
-          <div class="dept-footer">
-            <span>
-              ACCESO DIRECTO
-            </span>
-
-            <b>→</b>
-          </div>
-
-        </article>
-
-
-        <!-- BANDAS -->
-
-        <article class="dept-card dept-purple reveal delay-2">
-
-          <div class="dept-number">
-            06
-          </div>
-
-          <div class="dept-icon">
-            🏴
-          </div>
-
-          <div class="dept-badge">
-            ORGANIZACIONES
-          </div>
-
-          <h3>
-            BANDAS
-          </h3>
-
-          <p>
-            Crea tu propia organización y desarrolla
-            tu historia dentro del Roleplay.
-          </p>
-
-          <div class="dept-footer">
-            <span>
-              GRATIS
-            </span>
-
-            <b>→</b>
-          </div>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         VENTAJAS
-    ========================== -->
-
-    <section
-      class="advantages"
-      id="ventajas"
-    >
-
-      <div class="advantages-bg"></div>
-
-      <div class="advantages-inner">
-
-        <div class="section-tag">
-          03 / ¿POR QUÉ NOSOTROS?
-        </div>
-
-        <h2 class="reveal">
-          ENTRA.
-          <br>
-          <span>PARTICIPA.</span>
-          <br>
-          DISFRUTA.
-        </h2>
-
-        <p class="advantages-intro reveal delay-1">
-          Hemos diseñado Cataluña PD para que entrar a la
-          comunidad sea sencillo y que cada jugador pueda
-          encontrar su sitio.
-        </p>
-
-
-        <div class="advantages-grid">
-
-
-          <article class="advantage-card reveal">
-
-            <div class="advantage-icon">
-              ✓
-            </div>
-
-            <div>
-              <strong>
-                SIN OPOSICIONES
-              </strong>
-
-              <p>
-                No necesitas superar unas oposiciones
-                para poder entrar a nuestros departamentos.
-              </p>
-            </div>
-
-          </article>
-
-
-          <article class="advantage-card reveal delay-1">
-
-            <div class="advantage-icon">
-              €
-            </div>
-
-            <div>
-              <strong>
-                BANDAS GRATIS
-              </strong>
-
-              <p>
-                Las organizaciones y bandas forman parte
-                de la experiencia sin coste.
-              </p>
-            </div>
-
-          </article>
-
-
-          <article class="advantage-card reveal delay-2">
-
-            <div class="advantage-icon">
-              RP
-            </div>
-
-            <div>
-              <strong>
-                ROLEPLAY ACTIVO
-              </strong>
-
-              <p>
-                Operaciones, servicios y situaciones
-                creadas para mantener el servidor activo.
-              </p>
-            </div>
-
-          </article>
-
-
-          <article class="advantage-card reveal">
-
-            <div class="advantage-icon">
-              +
-            </div>
-
-            <div>
-              <strong>
-                COMUNIDAD
-              </strong>
-
-              <p>
-                Un espacio para conocer jugadores,
-                formar equipos y crear historias.
-              </p>
-            </div>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         EXPERIENCIA
-    ========================== -->
-
-    <section class="operations">
-
-      <div class="operations-bg"></div>
-
-      <div class="operations-inner">
-
-        <div class="section-tag">
-          04 / EXPERIENCIA
-        </div>
-
-        <h2 class="reveal">
-          OPERACIONES.
-          <br>
-          <span>ADRENALINA. RP.</span>
-        </h2>
-
-        <p class="reveal delay-1">
-          Cada sesión puede convertirse en una nueva historia.
-          Patrullajes, emergencias, accidentes, investigaciones,
-          servicios públicos y situaciones entre civiles.
-        </p>
-
-
-        <div class="operation-cards">
-
-
-          <div class="op-card reveal">
-
-            <strong>
-              01
-            </strong>
-
-            <span>
-              Patrullaje
-            </span>
-
-            <small>
-              SEGURIDAD
-            </small>
-
-          </div>
-
-
-          <div class="op-card reveal delay-1">
-
-            <strong>
-              02
-            </strong>
-
-            <span>
-              Emergencias
-            </span>
-
-            <small>
-              RESPUESTA
-            </small>
-
-          </div>
-
-
-          <div class="op-card reveal delay-2">
-
-            <strong>
-              03
-            </strong>
-
-            <span>
-              Carreteras
-            </span>
-
-            <small>
-              SERVICIO
-            </small>
-
-          </div>
-
-
-          <div class="op-card reveal">
-
-            <strong>
-              04
-            </strong>
-
-            <span>
-              Organizaciones
-            </span>
-
-            <small>
-              CIVILES
-            </small>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         NOVEDADES
-    ========================== -->
-
-    <section
-      class="section updates"
-      id="actualizaciones"
-    >
-
-      <div class="section-head split reveal">
-
-        <div>
-
-          <div class="section-tag">
-            05 / NOVEDADES
-          </div>
-
-          <h2>
-            SIEMPRE
-            <br>
-            <span>AVANZANDO.</span>
-          </h2>
-
-        </div>
-
-        <p>
-          Cataluña PD continúa evolucionando para ofrecer
-          nuevas funciones, sistemas y experiencias a la comunidad.
-        </p>
-
-      </div>
-
-
-      <div class="timeline">
-
-
-        <article class="timeline-item reveal">
-
-          <span>
-            COMUNIDAD
-          </span>
-
-          <div>
-
-            <h3>
-              Nuevas experiencias
-            </h3>
-
-            <p>
-              Seguimos ampliando las posibilidades de Roleplay
-              para todos los jugadores.
-            </p>
-
-          </div>
-
-          <b>
-            →
-          </b>
-
-        </article>
-
-
-        <article class="timeline-item reveal delay-1">
-
-          <span>
-            SISTEMAS
-          </span>
-
-          <div>
-
-            <h3>
-              Nuevas herramientas
-            </h3>
-
-            <p>
-              Mejoras y sistemas diseñados para facilitar
-              y mejorar las operaciones.
-            </p>
-
-          </div>
-
-          <b>
-            →
-          </b>
-
-        </article>
-
-
-        <article class="timeline-item reveal delay-2">
-
-          <span>
-            EVENTOS
-          </span>
-
-          <div>
-
-            <h3>
-              Actividades de comunidad
-            </h3>
-
-            <p>
-              Participa en eventos y situaciones especiales
-              organizadas dentro de Cataluña PD.
-            </p>
-
-          </div>
-
-          <b>
-            →
-          </b>
-
-        </article>
-
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         DISCORD
-    ========================== -->
-
-    <section
-      class="join"
-      id="discord"
-    >
-
-      <div class="join-grid">
-
-        <div class="join-copy reveal">
-
-          <div class="section-tag">
-            06 / DISCORD
-          </div>
-
-          <h2>
-            ¿TE UNES
-            <br>
-            <span>A CATALUÑA PD?</span>
-          </h2>
-
-          <p>
-            Entra a nuestro Discord, conoce a la comunidad
-            y empieza a formar parte de Cataluña PD.
-          </p>
-
-
-          <div class="join-points">
-
-            <div>
-              <span>✓</span>
-              Acceso a la comunidad
-            </div>
-
-            <div>
-              <span>✓</span>
-              Departamentos sin oposiciones
-            </div>
-
-            <div>
-              <span>✓</span>
-              Bandas gratuitas
-            </div>
-
-          </div>
-
-
-          <a
-            class="btn btn-discord"
-            href="https://discord.gg/2QE3z3wCvw"
-            target="_blank"
-            rel="noopener"
-          >
-            <span>◉</span>
-            ABRIR DISCORD
-            <b>↗</b>
-          </a>
-
-        </div>
-
-
-        <div class="discord-panel reveal delay-1">
-
-          <div class="discord-top">
-            <i></i>
-            CATALUÑA PD / COMMUNITY
-          </div>
-
-          <img
-            src="logo.png"
-            alt="Logo Cataluña PD"
-            class="discord-logo"
-          >
-
-          <div class="discord-url">
-            discord.gg/2QE3z3wCvw
-          </div>
-
-          <div class="discord-bars">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-
-          <small>
-            ENTRADA ABIERTA · ROLEPLAY COMMUNITY
-          </small>
-
-        </div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- =========================
-       FOOTER
-  ========================== -->
-
-  <footer>
-
-    <div class="footer-brand">
-
-      <img
-        src="logo.png"
-        alt="Cataluña PD"
-      >
-
-      <div>
-
-        <strong>
-          CATALUÑA PD
-        </strong>
-
-        <small>
-          ROLEPLAY COMMUNITY
-        </small>
-
-      </div>
-
     </div>
 
-
-    <div class="footer-center">
-      © 2026 Cataluña PD · Comunidad independiente
+    <div class="hero-right">
+      <h3>Información de Contacto</h3>
+      <a class="glass" href="tel:+34722499848"><span class="ico">⌕</span><div><small>TELÉFONO</small><b>+34 722 49 98 48<br>+34 692 14 09 96</b></div></a>
+      <a class="glass" href="mailto:info@rommattryout.es"><span class="ico">✉</span><div><small>EMAIL</small><b>info@rommattryout.es</b></div></a>
+      <a class="glass" href="#contacto"><span class="ico">⌖</span><div><small>UBICACIÓN</small><b>Passatge de la Mercé 16</b></div></a>
+      <div class="brands-label">TRABAJAMOS CON LAS PRINCIPALES MARCAS</div>
+      <div class="logos">
+        <span class="bentley">BENTLEY</span><span class="round">★</span><span class="round">BMW</span><span class="vw">VW</span><span>SEAT</span><span class="lambo">◈</span><span class="round">M</span>
+      </div>
     </div>
+  </div>
+</section>
 
+<section class="numbers">
+  <div><b>20+</b><span>Años de Experiencia</span></div>
+  <div><b>400+</b><span>Proyectos Realizados</span></div>
+  <div><b>10+</b><span>Marcas Premium</span></div>
+  <div><b>24/7</b><span>Disponibilidad</span></div>
+</section>
 
-    <div class="footer-links">
+<section id="servicios" class="services wrap">
+  <div class="section-top">
+    <div><label>NUESTROS SERVICIOS</label><h2>Soluciones integrales en matricería y mecanizado</h2></div>
+    <p>Ofrecemos soluciones integrales en matricería y mecanizado para la industria automotriz: desde la puesta a punto de matrices nuevas hasta el mantenimiento y la fabricación.</p>
+  </div>
+  <div class="service-list">
+    <article class="service main-service"><small>SERVICIO DESTACADO</small><h3>Puesta a Punto de Matrices Nuevas</h3><p>Try out y ajuste final de matrices nuevas hasta conseguir la pieza OK: puesta a punto, corrección de geometría, retornos elásticos y validación dimensional. No solo fabricamos matrices, las dejamos listas para producir.</p><a href="#presupuesto">Solicitar servicio <b>→</b></a></article>
+    <article class="service"><span>02</span><h3>Matricería de Precisión</h3><p>Ajuste y resolución de problemas en matricería para automoción y/o gama blanca.</p><a href="#presupuesto">Más información →</a></article>
+    <article class="service"><span>03</span><h3>Mecanizado CNC</h3><p>Mecanizado de alta precisión con centros de mecanizado CNC de 5 ejes para geometrías complejas.</p><a href="#presupuesto">Más información →</a></article>
+    <article class="service"><span>04</span><h3>Mantenimiento Preventivo y Modificaciones</h3><p>Servicios de mantenimiento y reparación de matrices para garantizar el máximo rendimiento y vida útil.</p><a href="#presupuesto">Más información →</a></article>
+    <article class="service"><span>05</span><h3>Prototipado Rápido</h3><p>Desarrollo de prototipos y pruebas de concepto para validación de diseños antes de la producción.</p><a href="#presupuesto">Más información →</a></article>
+    <article class="service"><span>06</span><h3>Consultoría Técnica</h3><p>Asesoramiento especializado en procesos de conformado y optimización de la producción.</p><a href="#presupuesto">Más información →</a></article>
+  </div>
+</section>
 
-      <a
-        href="https://discord.gg/2QE3z3wCvw"
-        target="_blank"
-        rel="noopener"
-      >
-        DISCORD
-      </a>
-
-      <a href="#inicio">
-        VOLVER ARRIBA ↑
-      </a>
-
+<section id="nosotros" class="about">
+  <div class="about-art"><div class="machine"><span>RM</span><small>PRECISION<br>ENGINEERING</small></div></div>
+  <div class="about-text">
+    <label>SOBRE NOSOTROS</label>
+    <h2>Más de 20 años perfeccionando el arte de la matricería.</h2>
+    <p>Somos un grupo de profesionales, que juntos acumulamos más de 20 años de experiencia, en todos los sectores de la matricería. Ofreciendo servicios de calidad y ajustándonos a las exigentes calidades de nuestros clientes.</p>
+    <p>ROMMAT TRY OUT nace desde la ilusión de un grupo de profesionales por ofrecer un amplio servicio a cualquiera de nuestros clientes.</p>
+    <div class="pillars">
+      <div><b>01</b><strong>Experiencia</strong><p>Más de 20 años perfeccionando técnicas de matricería.</p></div>
+      <div><b>02</b><strong>Calidad</strong><p>Estándares de calidad excepcionales.</p></div>
+      <div><b>03</b><strong>Innovación</strong><p>Tecnología de vanguardia y soluciones innovadoras.</p></div>
+      <div><b>04</b><strong>Compromiso</strong><p>Dedicación total y entregas puntuales.</p></div>
     </div>
+  </div>
+</section>
 
-  </footer>
+<section class="trusted wrap">
+  <div class="section-top"><div><label>MARCAS QUE CONFÍAN EN NOSOTROS</label><h2>Experiencia con las principales marcas</h2></div><p>Hemos trabajado codo a codo con marcas prestigiosas del sector automotriz.</p></div>
+  <div class="trusted-logos">
+    <span>BENTLEY</span><span>◯ MERCEDES</span><span>BMW</span><span>VW</span><span>SEAT / CUPRA</span><span>RENAULT</span><span>♢ LAMBORGHINI</span><span>MOL-MATRIC</span><span>GESTAMP</span>
+  </div>
+</section>
 
+<section id="proyectos" class="projects wrap">
+  <div class="section-top"><div><label>PROYECTOS REALIZADOS</label><h2>Algunos de nuestros trabajos más destacados</h2></div><a class="more" href="#contacto">Ver todos →</a></div>
+  <div class="project-grid">
+    <article class="project"><div class="project-image p1"><span>01</span></div><small>BENTLEY</small><h3>Bentley Continental</h3><p>Lateral derecho e izquierdo.</p></article>
+    <article class="project"><div class="project-image p2"><span>02</span></div><small>SAAB</small><h3>Saab 9-3</h3><p>Proyecto de 19 piezas.</p></article>
+    <article class="project"><div class="project-image p3"><span>03</span></div><small>VOLKSWAGEN</small><h3>Passat / Golf</h3><p>Techos y aletas.</p></article>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section class="process">
+  <div class="wrap">
+    <div class="section-top center"><div><label>NUESTRO PROCESO DE TRABAJO</label><h2>Un proceso estructurado y probado</h2></div><p>Un proceso pensado para garantizar resultados excepcionales en cada proyecto.</p></div>
+    <div class="steps">
+      <div><b>1</b><h3>Consulta Inicial</h3><p>Entendemos tus necesidades específicas y requerimientos del proyecto.</p></div>
+      <div><b>2</b><h3>Análisis y Propuesta</h3><p>Evaluamos la viabilidad técnica y creamos una propuesta personalizada.</p></div>
+      <div><b>3</b><h3>Planificación del Proyecto</h3><p>Asignamos un equipo especializado y establecemos cronogramas detallados.</p></div>
+      <div><b>4</b><h3>Diseño y Desarrollo</h3><p>Nuestros ingenieros crean los diseños técnicos y comienzan la fabricación CNC.</p></div>
+      <div><b>5</b><h3>Puesta a Punto y Pruebas</h3><p>Realizamos el try out hasta conseguir la pieza OK.</p></div>
+      <div><b>6</b><h3>Entrega y Soporte</h3><p>Entregamos el proyecto y ofrecemos soporte continuo.</p></div>
+    </div>
+  </div>
+</section>
 
+<section class="faq wrap">
+  <div class="section-top"><div><label>PREGUNTAS FRECUENTES</label><h2>Resolvemos tus dudas</h2></div><p>Las preguntas más comunes sobre nuestros servicios de matricería.</p></div>
+  <div class="faq-list">
+    <details><summary>¿Qué es la matricería y por qué es importante en automoción?</summary><p>Es el conjunto de procesos y herramientas utilizados para fabricar y conformar piezas. En automoción resulta clave para conseguir precisión, repetibilidad y calidad.</p></details>
+    <details><summary>¿Cuánto tiempo toma desarrollar una matriz completa?</summary><p>Depende del tipo de matriz, complejidad, materiales y requisitos del proyecto. Tras el análisis inicial ofrecemos una estimación personalizada.</p></details>
+    <details><summary>¿Qué marcas de automóviles han confiado en sus servicios?</summary><p>Hemos trabajado con marcas y proveedores del sector automotriz premium y generalista.</p></details>
+    <details><summary>¿Ofrecen servicios de mantenimiento y reparación de matrices?</summary><p>Sí. Realizamos mantenimiento preventivo, reparaciones, modificaciones y ajustes de precisión.</p></details>
+    <details><summary>¿Cómo garantizan la calidad y precisión?</summary><p>Mediante controles, validaciones dimensionales, pruebas de try out y procesos de ajuste hasta conseguir la pieza OK.</p></details>
+    <details><summary>¿Pueden trabajar con materiales especiales?</summary><p>Evaluamos cada proyecto y sus materiales para determinar la solución técnica adecuada.</p></details>
+  </div>
+</section>
+
+<section class="big-cta" id="presupuesto">
+  <label>¿LISTO PARA INICIAR TU PROYECTO?</label>
+  <h2>Transforma tu idea en realidad.</h2>
+  <p>Más de 20 años de experiencia en matricería profesional.</p>
+  <a class="btn yellow" href="#contacto">Solicitar Presupuesto Gratuito <b>→</b></a>
+  <a class="btn ghost" href="#contacto">Conocer Más</a>
+</section>
+
+<section id="contacto" class="contact wrap">
+  <div>
+    <label>CONTACTO</label><h2>Cuéntanos tu proyecto</h2>
+    <p>Solicita un presupuesto personalizado y nuestro equipo se pondrá en contacto contigo.</p>
+    <div class="contact-data">
+      <a href="mailto:info@rommattryout.es">✉ info@rommattryout.es</a>
+      <a href="tel:+34722499848">⌕ +34 722 49 98 48</a>
+      <span>⌖ Passatge de la Mercé 16, Manresa, Barcelona</span>
+      <span>◷ Lunes a Viernes: 8:00 - 18:00</span>
+    </div>
+  </div>
+  <form id="form">
+    <div><label>Nombre completo *</label><input name="nombre" required placeholder="Su nombre completo"></div>
+    <div><label>Email *</label><input name="email" type="email" required placeholder="su@email.com"></div>
+    <div><label>Teléfono</label><input name="telefono" placeholder="+34 722 49 98 48"></div>
+    <div><label>Empresa</label><input name="empresa" placeholder="Nombre de su empresa"></div>
+    <div class="full"><label>Descripción del proyecto *</label><textarea name="mensaje" required placeholder="Cuéntanos qué necesitas..."></textarea></div>
+    <button class="btn yellow" type="submit">Solicitar Presupuesto Gratuito <b>→</b></button>
+    <output id="status"></output>
+  </form>
+</section>
+</main>
+
+<footer>
+  <div class="footer-grid wrap">
+    <div><a class="logo" href="#inicio"><span>R</span><b>M</b><i>R</i></a><h3>Rommat Try Out</h3><p>Matricería Profesional para Automoción.</p></div>
+    <div><strong>Empresa</strong><a href="#nosotros">Sobre Nosotros</a><a href="#servicios">Servicios</a><a href="#proyectos">Proyectos</a></div>
+    <div><strong>Contacto</strong><a href="mailto:info@rommattryout.es">info@rommattryout.es</a><a href="tel:+34722499848">+34 722 49 98 48</a><span>Manresa, Barcelona</span></div>
+  </div>
+  <div class="copyright">© <span id="year"></span> Rommat Try Out. Todos los derechos reservados.</div>
+</footer>
+<script src="/app.js"></script>
 </body>
 </html>
